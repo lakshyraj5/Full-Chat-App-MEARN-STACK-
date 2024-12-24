@@ -2,6 +2,7 @@ import { useState } from "react"
 import { useAuthStore } from "../store/useAuthStore";
 import { Loader2, LockKeyhole, LucideEye, LucideEyeClosed, Mail, MessageSquare, UserCircle2 } from "lucide-react";
 import { Link } from "react-router-dom";
+import AuthImagePattern from "../components/AuthImagePattern"; 
 
 
 const SignUpPage = () => {
@@ -128,7 +129,7 @@ const SignUpPage = () => {
 
       <AuthImagePattern 
       title="Join our Community"
-      subtitle = "Connect with friends , share moments, and stay in touch with your loved ones "
+      subtitle = "Connect with friends , share moments, and stay in touch with your loved ones"
       /> 
     </div>
   );
